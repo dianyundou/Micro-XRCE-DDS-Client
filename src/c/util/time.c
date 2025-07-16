@@ -10,7 +10,7 @@
 #elif defined(UCLIENT_PLATFORM_ZEPHYR)
 #include <version.h>
 #endif /* ifdef WIN32 */
-
+int clock_gettime( int clock_id, struct timespec * tp );
 //==================================================================
 //                             PUBLIC
 //==================================================================
